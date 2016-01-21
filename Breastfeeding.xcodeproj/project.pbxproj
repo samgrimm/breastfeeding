@@ -14,6 +14,8 @@
 		8D469BFB1C4830020056DE69 /* Breastfeeding.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D469BF91C4830020056DE69 /* Breastfeeding.xcdatamodeld */; };
 		8D469BFD1C4830020056DE69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D469BFC1C4830020056DE69 /* Assets.xcassets */; };
 		8D469C001C4830020056DE69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D469BFE1C4830020056DE69 /* LaunchScreen.storyboard */; };
+		8D469C0D1C496D7D0056DE69 /* Feeding+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D469C0A1C496D7D0056DE69 /* Feeding+CoreDataProperties.m */; };
+		8D469C0E1C496D7D0056DE69 /* Feeding.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D469C0C1C496D7D0056DE69 /* Feeding.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,10 @@
 		8D469BFC1C4830020056DE69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D469BFF1C4830020056DE69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D469C011C4830020056DE69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D469C091C496D7D0056DE69 /* Feeding+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Feeding+CoreDataProperties.h"; sourceTree = "<group>"; };
+		8D469C0A1C496D7D0056DE69 /* Feeding+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Feeding+CoreDataProperties.m"; sourceTree = "<group>"; };
+		8D469C0B1C496D7D0056DE69 /* Feeding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Feeding.h; sourceTree = "<group>"; };
+		8D469C0C1C496D7D0056DE69 /* Feeding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Feeding.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +50,10 @@
 		8D469BE11C4830020056DE69 = {
 			isa = PBXGroup;
 			children = (
+				8D469C091C496D7D0056DE69 /* Feeding+CoreDataProperties.h */,
+				8D469C0A1C496D7D0056DE69 /* Feeding+CoreDataProperties.m */,
+				8D469C0B1C496D7D0056DE69 /* Feeding.h */,
+				8D469C0C1C496D7D0056DE69 /* Feeding.m */,
 				8D469BEC1C4830020056DE69 /* Breastfeeding */,
 				8D469BEB1C4830020056DE69 /* Products */,
 			);
@@ -155,6 +165,8 @@
 				8D469BF51C4830020056DE69 /* ViewController.m in Sources */,
 				8D469BFB1C4830020056DE69 /* Breastfeeding.xcdatamodeld in Sources */,
 				8D469BF21C4830020056DE69 /* AppDelegate.m in Sources */,
+				8D469C0D1C496D7D0056DE69 /* Feeding+CoreDataProperties.m in Sources */,
+				8D469C0E1C496D7D0056DE69 /* Feeding.m in Sources */,
 				8D469BEF1C4830020056DE69 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +316,7 @@
 				8D469C061C4830020056DE69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
